@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/plant-disease-prediction/static/css/main.5662b71e.css",
+    "main.js": "/plant-disease-prediction/static/js/main.f78283c3.js",
+    "static/js/453.b4bb8896.chunk.js": "/plant-disease-prediction/static/js/453.b4bb8896.chunk.js",
+    "index.html": "/plant-disease-prediction/index.html",
+    "main.5662b71e.css.map": "/plant-disease-prediction/static/css/main.5662b71e.css.map",
+    "main.f78283c3.js.map": "/plant-disease-prediction/static/js/main.f78283c3.js.map",
+    "453.b4bb8896.chunk.js.map": "/plant-disease-prediction/static/js/453.b4bb8896.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5662b71e.css",
+    "static/js/main.f78283c3.js"
+  ]
+}
