@@ -1,0 +1,25 @@
+.inputImg{
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    /* display: flex; */
+}
+
+.content{
+    display: flex;
+}
+
+.image{
+    width: 47%;
+    margin-left: 20px;
+}
+
+.information{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.loading{
+    font-size: 40px;
+}
