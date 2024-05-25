@@ -41,12 +41,12 @@ const Home = () => {
     
       return (
         <div>
-          <input type="file" onChange={handleImageChange} className='inputImg'/>
+          <input type="file" onChange={handleImageChange} className='inputImg' accept="capture=camera,image/*"/>
           <br/>
           <div className='content'>
             <div className='image'>
                 {selectedImage && ( // Conditionally render preview image
-                    <img src={selectedImage} alt="Selected Image" />
+                    <img src={selectedImage} alt="Leaf" />
                 )}
             </div>
             <div className='information'>
