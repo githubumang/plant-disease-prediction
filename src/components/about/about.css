@@ -1,10 +1,24 @@
 .about{
     background-color: aliceblue;
     height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hello{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.heading{
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 40px;
 }
 
 .detail{
-    padding-top: 10px;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 20px;
 }

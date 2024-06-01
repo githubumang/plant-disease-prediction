@@ -1,3 +1,11 @@
+.card:nth-child(2){
+    margin: auto;
+}
+
+.card:nth-child(3){
+    float: right;
+}
+
 .card{
     background-color: rgb(210, 201, 201);
     margin: 20px;
@@ -6,5 +14,10 @@
     padding: 20px;
     font-weight: bold;
     border-radius: 5%;
+}
+
+.card:hover{
+    height: 105px;
+    width: 210px;
 }
 

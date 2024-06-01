@@ -5,6 +5,11 @@ const Home = () => {
     const [imgData, setImgData] = useState("Choose the image");
     const [selectedImage, setSelectedImage] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
+    const [diseaseData, setDiseaseData] = useState("");
+    const diseaseInfor = {
+      "Rust": "The rusts are a group of fungal diseases affecting the aerial parts of plants. Leaves are affected most commonly, but rust can also be found occasionally on stems and even flowers and fruit. The spore pustules produced by rusts vary in colour, according to the rust species and the type of spore that it is producing.",
+      "leaf" : "There is the leaf."
+    };
 
     const sendImage = async (imageFile) => {
         const formData = new FormData();
@@ -22,6 +27,7 @@ const Home = () => {
       
           const data = await response.json();
           setImgData("Image prediction results: " + data);
+          setDiseaseData(diseaseInfor[data]);
           setIsLoading(false);
           // Handle the prediction results here (e.g., display on UI)
         } catch (error) {
@@ -57,6 +63,9 @@ const Home = () => {
                     : 
                     <div>
                         {imgData}
+                        <br/>
+                        <br/>
+                        {diseaseData}
                     </div>
                 }
             </div>

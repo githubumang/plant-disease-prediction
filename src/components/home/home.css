@@ -8,11 +8,14 @@
 
 .content{
     display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 .image{
     width: 47%;
-    margin-left: 20px;
+
 }
 
 .information{

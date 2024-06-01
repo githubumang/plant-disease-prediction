@@ -3,12 +3,12 @@ import './contact.css'
 
 export const Contact = () => {
     const contactInfo = [
-        {name:"Umang", RollNo:"2000520130058", Email:"umang@gmail.com"},
-        {name:"Nikhil", RollNo:"2000520130058", Email:"nikhil@gmail.com"},
-        {name:"Om", RollNo: "2000520130058", Email:"om@gmail.com"}
+        {name:"Umang Agrawal", RollNo:"2000520130058", Email:"umang@gmail.com"},
+        {name:"Om Prakash Chaurasiya ", RollNo: "2000520130037", Email:"om@gmail.com"},
+        {name:"Nikhil Mishra ", RollNo:"2000520130035", Email:"nikhil@gmail.com"}
     ]
   return (
-    <div>
+    <div className='contact'>
         {contactInfo.map((contact)=>{
             return(
                 <div className='card'>
