@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/plant-disease-prediction/static/css/main.3ab53d9a.css",
-    "main.js": "/plant-disease-prediction/static/js/main.9c33b298.js",
+    "main.css": "/plant-disease-prediction/static/css/main.81473c18.css",
+    "main.js": "/plant-disease-prediction/static/js/main.9733bfe5.js",
     "static/js/453.b4bb8896.chunk.js": "/plant-disease-prediction/static/js/453.b4bb8896.chunk.js",
     "index.html": "/plant-disease-prediction/index.html",
-    "main.3ab53d9a.css.map": "/plant-disease-prediction/static/css/main.3ab53d9a.css.map",
-    "main.9c33b298.js.map": "/plant-disease-prediction/static/js/main.9c33b298.js.map",
+    "main.81473c18.css.map": "/plant-disease-prediction/static/css/main.81473c18.css.map",
+    "main.9733bfe5.js.map": "/plant-disease-prediction/static/js/main.9733bfe5.js.map",
     "453.b4bb8896.chunk.js.map": "/plant-disease-prediction/static/js/453.b4bb8896.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ab53d9a.css",
-    "static/js/main.9c33b298.js"
+    "static/css/main.81473c18.css",
+    "static/js/main.9733bfe5.js"
   ]
 }
